@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Inicio de sesion</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style.sesion.css">
+    </head>
+    <body>
+        <header>
+             <div class="caja"> 
+                <h1 id="agro"><img src="imagenes/Agrovisión logo.png"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="Agrovsión.html">Inicio</a></li>
+                        <li><a href="login.html">Inicio de sesion</a></li>
+                        <li><a href="Perfil.html">Perfil</a></li>
+                    </ul>
+                </nav>
+            </div>
+                
+            </header>
+        <main class="formulario registro">
+                <form>
+                <label for="NombreApellido">Nombre y Apellido</label>
+                <input type="text" id="NombreApellido" class="input-padron" required>
+
+                <label for="CorreoElectronico">Correo Electronico</label>
+                <input type="email" id="CorreoElectronico" class="input-padron" required placeholder="email@dominio.com">
+
+                <label for="telefono"> Telefono</label>
+                <input type="tel" id="telefono" class="input-padron" required placeholder="(xxx)xxx xxx">
+                <button type="submit" class="enviar">Registrase</button>
+            </form>
+        </main>
+        
+    </body>
+</html>

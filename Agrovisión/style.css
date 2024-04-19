@@ -1,0 +1,75 @@
+body{
+    background-color:beige;
+}
+
+header{
+    background-color:whitesmoke;
+    padding: 10px 0;
+}
+
+.caja{
+    width: 940px;
+    position:relative;
+    margin: 0 auto;
+}
+
+#agro{
+    text-align: left;
+
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li{
+    display:inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase; /*mayuscula*/
+    color: #000000; 
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none; /*subrayado*/
+}
+
+nav a:hover{
+    color:darkgreen;
+}
+
+.agro{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px; 
+}
+
+.Principal{
+    margin-top: 290px;
+    text-align: center;
+}
+
+.titulo-centralizado{
+    font-size: 35px;
+    margin-top: 120px;
+}
+
+#mision{
+    text-align: justify;
+    margin-right:100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+
